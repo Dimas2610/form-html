@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de HTML con formularios</title>
+</head>
+<body>
+    <header>
+        <h1>Formularios en HTML</h1>
+    </header>
+    <section>
+        <form action="">
+            <h2>Datos Personales</h2>
+            <fieldset>
+                <label for="name">Nombre:
+                    <input type="text" id="name">
+                </label>
+                <br>
+                <label for="email">Correo Electrónico
+                    <input type="email" id="email">
+                </label>
+                <br>
+                <label for="telefono">Teléfono:
+                    <input type="tel" id="telefono">
+                </label>
+            </fieldset>
+            <h2>Género</h2>
+            <input type="radio" name="genero" id="Masculino">
+            <label for="Masculino">Masculino</label>
+            <br>
+            <input type="radio" name="genero" id="Femenino">
+            <label for="Femenino">Femenino</label>
+            <br>
+            <input type="radio" name="genero" id="Otro">
+            <label for="Otro">Otro</label>
+            <br>
+            <input type="checkbox" name="preferencias" id="Música">
+            <label for="Música">Música</label>
+            <br>
+            <input type="checkbox" name="preferencias" id="Deportes">
+            <label for="Deportes">Deportes</label>
+            <br>
+            <input type="checkbox" name="preferencias" id="Lectura">
+            <label for="Lectura">Lectura</label>
+            <br>
+            <h2>Comentarios</h2>
+            <textarea name="Comentarios" id="Comentarios" cols="50" rows="4"></textarea>
+            <br>
+            <button>Enviar</button>
+        </form>
+        
+    </section>
+</body>
+</html>
